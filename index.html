@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="flex-center">
-      <a class="site-logo flex-center glass" href="/">
+      <a class="site-logo flex-center glass" href="./index.html">
         <img
           src="./img/jbj-logo.svg"
           alt="JBJ Logo"
@@ -27,54 +27,88 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="hero-section flex-center">
         <div>
           <h2>Welcome to my landing page project!</h2>
           <p>
             This landing page was made as a Flexbox project for The Odin
             Projects's Foundations course. Feel free to look around or view
-            other projects below! <span>ü</span>
+            other projects below! <span class="smile">ü</span>
           </p>
-          <a>View Projects</a>
+          <a
+            class="view-btn"
+            href="https://www.theodinproject.com/lessons/foundations-landing-page/project_submissions"
+            rel="noreferrer"
+            target="_blank"
+          >
+            View Projects
+          </a>
         </div>
-        <img src="" alt="" />
-      </section>
-      <section id="information">
-        <h2>Random Project Facts</h2>
         <div>
+          <img
+            src="./img/odin-city.png"
+            alt="The Odin Project City"
+            width="500"
+          />
+        </div>
+      </section>
+      <section id="information" class="info-section">
+        <h2>Random Project Facts</h2>
+        <div class="item-container">
           <!-- 4x below div -->
-          <div>
-            <img src="" alt="" />
-            <p></p>
+          <div class="info-item">
+            <img src="./img/jbj-logo.svg" alt="" />
+            <p>Write some information here</p>
+          </div>
+          <div class="info-item">
+            <img src="./img/jbj-logo.svg" alt="" />
+            <p>Write some information here</p>
+          </div>
+          <div class="info-item">
+            <img src="./img/jbj-logo.svg" alt="" />
+            <p>Write some information here</p>
+          </div>
+          <div class="info-item">
+            <img src="./img/jbj-logo.svg" alt="" />
+            <p>Write some information here</p>
           </div>
         </div>
       </section>
-      <section id="review">
-        <p>
-          “So far, it has been a joy learning through The Odin Project, even
-          with prior experience in HTML, CSS, and JavaScript. I really
-          appreciate the effort to teach beyond specific technologies, including
-          mindset, career, and community-related topics. I’m excited to choose a
-          path and have faith that The Odin Project can help make me a
-          full-stack developer.”
-        </p>
-        <p>- Me, JBJ <span>ü</span></p>
+      <section id="review" class="review-section flex-center">
+        <div class="review-container">
+          <p>
+            “So far, it has been a joy learning through The Odin Project, even
+            with prior experience in HTML, CSS, and JavaScript. I really
+            appreciate the effort to teach beyond specific technologies, by
+            including mindset, career, and community-related topics. I’m excited
+            to choose a path and have faith that The Odin Project can help make
+            me a full-stack developer.”
+          </p>
+          <p>- Me, JBJ <span class="smile">ü</span></p>
+        </div>
       </section>
       <section id="projects">
-        <div>
-          <div>
+        <div class="projects-container flex-center">
+          <div class="projects-text">
             <p>Thanks for viewing my project!</p>
             <p>
               See more projects like mine by clicking that button right over
               there!
             </p>
           </div>
-          <a>View Projects</a>
+          <a
+            class="view-btn"
+            href="https://www.theodinproject.com/lessons/foundations-landing-page/project_submissions"
+            rel="noreferrer"
+            target="_blank"
+          >
+            View Projects
+          </a>
         </div>
       </section>
     </main>
-    <footer>
-      <p>Copyright &copy; JBJ 2026</p>
+    <footer class="flex-center">
+      <p class="glass">Copyright &copy; JBJ 2026</p>
     </footer>
   </body>
 </html>
