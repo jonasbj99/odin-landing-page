@@ -2,7 +2,7 @@
 
 Lading page project from The Odin Project in the Flexbox section of the Foundations course. The project is focused on using Flexbox for page layout. Might be updated in the future, most likely by improving CSS or adding JavaScript.
 
-Demonstrated skills:
+## Demonstrated skills:
 
 - Git and GitHub
 
@@ -10,5 +10,6 @@ Demonstrated skills:
 
 - CSS Flexbox
 
-Attribution:
-The hero section image is from [The Odin Project's](https://www.facebook.com/photo/?fbid=516370540496695&set=a.516370513830031) Facebook page.
+## Attribution:
+
+The hero section image, [odin-city.png](docs/img/odin-city.png) is from [The Odin Project's](https://www.facebook.com/photo/?fbid=516370540496695&set=a.516370513830031) Facebook page.
