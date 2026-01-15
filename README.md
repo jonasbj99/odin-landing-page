@@ -12,4 +12,4 @@ Lading page project from The Odin Project in the Flexbox section of the Foundati
 
 ## Attribution:
 
-The hero section image, [odin-city.png](docs/img/odin-city.png) is from [The Odin Project's](https://www.facebook.com/photo/?fbid=516370540496695&set=a.516370513830031) Facebook page.
+The hero section image, [odin-city.png](./img/odin-city.png) is from [The Odin Project's](https://www.facebook.com/photo/?fbid=516370540496695&set=a.516370513830031) Facebook page.
