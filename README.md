@@ -8,4 +8,7 @@ Demonstrated skills:
 
 - HTML Basics
 
-- CSS & Flexbox
+- CSS Flexbox
+
+Attribution:
+The hero section image is from [The Odin Project's](https://www.facebook.com/photo/?fbid=516370540496695&set=a.516370513830031) Facebook page.
